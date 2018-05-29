@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name             : "heidiyun"
-  avatar           : "/assets/imgae/D.O..png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "./assets/imgae/D.O..png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "yun jeong goo"
   location         : "Somewhere"
   email            : "heidiyun.goo@gmail.com"
