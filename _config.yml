@@ -101,9 +101,9 @@ author:
   name             : "heidiyun"
   avatar           : "/assets/image/D.O..png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "yun jeong goo"
-  location         : "Somewhere"
+  location         : 
   email            : "heidiyun.goo@gmail.com"
-  uri              : "https://github.com/heidiyun"
+  github           : "https://github.com/heidiyun"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
