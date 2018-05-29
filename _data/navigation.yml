@@ -1,7 +1,4 @@
-# main links
 main:
-  - title : "Archive"
-    url : "/year-archive/"
-  - title: "tag"
-    url : /tags/
+  - title : "TIL"
+    url : /year-archive/
 
