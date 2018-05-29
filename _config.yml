@@ -103,7 +103,7 @@ author:
   bio              : "yun jeong goo"
   location         : 
   email            : "heidiyun.goo@gmail.com"
-  github           : "https://github.com/heidiyun"
+  uri           : "https://github.com/heidiyun"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
