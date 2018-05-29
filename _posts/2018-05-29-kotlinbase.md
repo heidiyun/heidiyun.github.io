@@ -25,13 +25,17 @@
 
 
 <자바 코드>
+
 ``` 
 String s = "hello";
 ```
+
 <코틀린 코드>
+
 ```
 var s = "hello:
 ```
+
 ### 코틀린과 함수형 프로그래밍
 ##### 함수형 프로그래밍의 특징
 	1. 일급 시민인 함수
@@ -66,6 +70,7 @@ var s = "hello:
 #### 코틀린과 함수형 프로그래밍
 ##### 코틀린은 함수형 프로그래밍 기능을 지원한다.
 	1) 함수를 인자로 받거나 함수가 새로운 함수를 반환할 수 있다.
+
 ```
 fun hoFun(x1: Int, argFun: (Int) -> Int) {
         val result = argFun(10)
@@ -77,9 +82,11 @@ fun hoFun(x1: Int, argFun: (Int) -> Int) {
     }
  ```
 
+
 	2) 람다 식을 지원해서 준비 코드를 작성하지 않아도 된다.
 	3) 데이터 클래스는 불변적인 값 객체를 간편하게 만들수 있는 구문을 제공한다. 
 		- toString, hashCode, equals, copy.. 제공
+
 ``` 
 	class Person(val name: String, val age: Int) {
     override fun equals(other: Any?): Boolean {
@@ -97,19 +104,15 @@ fun hoFun(x1: Int, argFun: (Int) -> Int) {
 }
 						
 ```
+
 	위와 같이 긴 코드를 쓸 필요 없이 아래와 같이 data만 class 앞에 붙여주면 
 	자동으로 생성된다. 
+
 
 ```	
 	data class Person(val name: String, val age: Int) 
 
 ```
+
 	4) val을 이용하여 불변의 데이터를 쉽게 정의할 수 있다. (final과 같은 수정자가 필요하지 않다.)
 	5) 코틀린 표준 라이브러리는 객체와 컬렉션을 함수형 스타일로 다룰 수 있는 API를 제공한다.
-
-
-
-
-
-
-
