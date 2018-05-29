@@ -12,17 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko"
+title                    : "heidiyun's blog"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "heidiyun"
+description              : "heidiyun's github pages!"
+url                      : "httsp://heidiyun.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "heidiyun/heidiyun.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia
 algolia:
@@ -98,11 +98,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "heidiyun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "yun jeong goo"
   location         : "Somewhere"
-  email            :
+  email            : "heidiyun.goo@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
