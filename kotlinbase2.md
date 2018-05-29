@@ -40,8 +40,8 @@ if(object.getClass == this.class)
 	- 자바 코드와 코틀린 소스 파일이 혼재해도 컴파일이 가능하다.
 	- 자바 메소드를 리팩토링해도 그 메소드와 관련 있는 코틀린 코드까지 제대로 변경됨.
 
-	```
-	import java.util.Calendar
+```
+import java.util.Calendar
 fun calendarDemo() {
     val calendar = Calendar.getInstance()
     if (calendar.firstDayOfWeek == Calendar.SUNDAY) {
@@ -51,5 +51,5 @@ fun calendarDemo() {
         calendar.isLenient = true
     }
 }
-    ```
+```
 	
