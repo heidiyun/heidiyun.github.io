@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "korea"
 title                    : "heidiyun's blog"
 title_separator          : "-"
 name                     : "heidiyun"
@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name             : "heidiyun"
-  avatar           : "./assets/imgae/D.O..png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/image/D.O..png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "yun jeong goo"
   location         : "Somewhere"
   email            : "heidiyun.goo@gmail.com"
