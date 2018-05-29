@@ -11,4 +11,5 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title : "TIL"
-    url : /year-archive/
+    url : /TIL/
+
