@@ -2,4 +2,6 @@
 main:
   - title : "Archive"
     url : "/year-archive/"
+  - title: "tag"
+    url : /tags/
 
